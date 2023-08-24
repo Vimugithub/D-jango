@@ -21,6 +21,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('register/', views.register_user, name='register_user'),
+    # Other URL patterns for the app
+]
+
+
+urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index')
 ]
