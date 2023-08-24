@@ -81,16 +81,7 @@ WSGI_APPLICATION = 'kaliya.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'AtlasCluster',
-#         'HOST': 'mongodb+srv://vimugithub19:vSrhkCFgCrpifpTy@cluster0.ndsagra.mongodb.net/?retryWrites=true&w=majority',  # You can find this on the MongoDB Atlas dashboard
-#         'PORT': 27017,
-#         'USER': 'vimugithub',
-#         'PASSWORD': 'Vimu%40110219',
-#     }
-# }
+DATABASES = { 'default': { 'ENGINE': 'djongo', 'NAME' : 'dboncloud', 'ENFORCE_SCHEMA': True, 'CLIENT': { 'host': 'mongodb+srv://vimugithub19:Uqr6SkQH1dhER51e@clusterfortesting.gwwsyqj.mongodb.net/?retryWrites=true&w=majority', 'username': 'vimugithub19', 'password': 'Vimu@110219', 'authMechanism': 'SCRAM-SHA-1', } } }
 
 
 # Password validation
