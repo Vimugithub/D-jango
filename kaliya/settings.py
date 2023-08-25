@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(%tcet#at-dw6o)zj5eb5wiai@0m_rf&yptn#e5rs3(j)22n79
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-vimal.ermks.in','.vercel.app']
+ALLOWED_HOSTS = ['django-vimal.ermks.in', '.vercel.app']
 
 
 # Application definition
@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'vimu',
-        
-    ]
+
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -76,19 +76,22 @@ WSGI_APPLICATION = 'kaliya.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mongoDB',
-#         'NAME': BASE_DIR / 'db.mongoDB',
-#     }
-# }
+
 
 DATABASES = {
-    'default': 
-    { 'ENGINE': 'djongo', 'NAME' : 'dboncloud', 'ENFORCE_SCHEMA': True, 
-     'CLIENT': 
-        { 'host': 'mongodb+srv://vimugithub19:Uqr6SkQH1dhER51e@clusterfortesting.gwwsyqj.mongodb.net/?retryWrites=true&w=majority', 'username': 'vimugithub19', 'password': 'Uqr6SkQH1dhER51e', 'authMechanism': 'SCRAM-SHA-1', } } }
-
+    'default':
+    {
+        'ENGINE': 'djongo',
+        'NAME': 'dboncloud',
+        'ENFORCE_SCHEMA': True,
+        'CLIENT':
+        {'host': 'mongodb+srv://sonali2000:Sonali1999@clusterfortest.zilcack.mongodb.net/?retryWrites=true&w=majority',
+         'username': 'sonali2000',
+         'password': 'Sonali1999',
+         'authMechanism': 'SCRAM-SHA-1',
+         }
+    }
+}
 
 
 # Password validation
